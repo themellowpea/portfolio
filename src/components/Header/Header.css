@@ -11,3 +11,15 @@
 	margin: auto;
 	width: 90%;
 }
+.navigation a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	border: 2px solid transparent;
+	padding: 8px;
+	border-radius: 4px;
+	transition: 0.35s ease-in-out;
+}
+.navigation a:hover {
+	border: 2px solid;
+}
