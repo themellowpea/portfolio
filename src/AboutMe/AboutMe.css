@@ -1,0 +1,87 @@
+.my-portrait {
+	width: 300px;
+	height: 400px;
+	border-radius: 50%;
+	margin: 30px;
+}
+.about__me {
+	background-color: #0064b7;
+	padding: 5rem;
+}
+.about__me__text__ctn {
+	width: 70%;
+	margin: auto;
+}
+.about__me__text__ctn h3 {
+	margin: 10px;
+	font-size: 32px;
+	font-weight: 600;
+	letter-spacing: 1pt;
+	color: rgba(255, 255, 255, 91%);
+}
+.about__me__text__ctn p {
+	font-size: 18px;
+	color: rgba(255, 255, 255, 91%);
+}
+.skills {
+	margin-top: -5rem;
+	background-color: rgb(255, 255, 255);
+	width: 80%;
+	margin-bottom: 4em;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.16),
+		0 2.5px 5px rgba(0, 0, 0, 0.23);
+}
+.skills__icn {
+	color: #0091ea;
+	font-size: 4em;
+	margin: 20px;
+}
+.last {
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+.col h4 {
+	font-size: 18px;
+	font-weight: 700;
+}
+.col h5 {
+	font-size: 16px;
+	font-weight: 600;
+	color: #0091ea;
+}
+.col p {
+	width: 80%;
+	margin: auto;
+}
+.tools {
+	list-style-type: none;
+	padding: 0;
+	margin: auto;
+}
+.tools li {
+	padding: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+	.skills {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.col {
+		flex: 1;
+		padding-top: 1em;
+		margin-top: 1em;
+		padding-bottom: 1em;
+		margin-bottom: 1em;
+	}
+	.first {
+		border-right: 1px solid #0064b7;
+	}
+	.last {
+		border-left: 1px solid #0064b7;
+	}
+}
