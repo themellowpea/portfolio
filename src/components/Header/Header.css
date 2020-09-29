@@ -1,0 +1,13 @@
+.main__header {
+	height: 100px;
+}
+.is-transparent {
+	background-color: transparent;
+}
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	width: 90%;
+}
