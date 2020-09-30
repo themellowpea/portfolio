@@ -11,7 +11,7 @@ export default function AboutMe() {
 		<section>
 			<h1>
 				Full-Stack Devloper, UI/UX Designer & Friendly
-				Neighborhood Socialist
+				Neighborhood Coder
 			</h1>
 			<h2>
 				I design and build useful, interesting web apps and
