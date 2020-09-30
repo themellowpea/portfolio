@@ -1,0 +1,42 @@
+.projects__header {
+	padding: 20px;
+	margin: 20px;
+}
+.projects__header h2 {
+	margin: 10px;
+	font-size: 32px;
+	font-weight: 600;
+	letter-spacing: 1pt;
+}
+.projects__header p {
+	font-size: 20px;
+}
+.projects {
+	padding: 30px;
+	margin: auto;
+}
+.projects__ctn {
+	max-width: 100%;
+	gap: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.project {
+	max-width: 100%;
+	display: flex;
+	gap: 10px;
+	padding: 20px;
+}
+.project__info {
+	text-align: left;
+}
+
+@media screen and (min-width: 1024px) {
+	.projects__ctn {
+		max-width: 100%;
+		gap: 20px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}
