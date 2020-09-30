@@ -1,7 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useHistory, useRouteMatch } from 'react-router-dom'
 import './Header.css'
 export default function Header() {
+	const history = useHistory()
+	const match = useRouteMatch()
+	console.log(history, match)
 	return (
 		<header className='main__header is-transparent'>
 			<nav className='navigation'>
@@ -10,8 +13,10 @@ export default function Header() {
 					src={require('../../images/portfolio-logo.png')}
 					alt='My logo'
 				></img>
-
-				<Link to='/contact'>Contact Me</Link>
+				<div className='nav__links'>
+					<Link to='/'>Home</Link>
+					<Link to='/contact'>Contact Me</Link>
+				</div>
 			</nav>
 		</header>
 	)

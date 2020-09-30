@@ -1,0 +1,51 @@
+.contact__me__form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.contact__me__form h1 {
+	max-width: 70%;
+	font-size: 24px;
+	font-weight: 600;
+}
+.contact__me__form label {
+	font-family: 'Roboto', sans-serif;
+}
+.contact__me__form input {
+	font-family: 'Roboto', sans-serif;
+	margin: 5px auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.contact__me__form textarea {
+	padding: 10px;
+	margin: 5px auto;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	min-width: 200px;
+	min-height: auto;
+}
+.contact__me__form p {
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+}
+.contact__me__form button {
+	margin-top: 10px;
+	background-color: transparent;
+	border: 2px solid transparent;
+	padding: 10px;
+	color: #0064b7;
+	font-size: 20px;
+	font-weight: 500;
+	border-radius: 2em;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+	transition: 0.25s ease-in;
+}
+.contact__me__form button:hover {
+	border: 2px solid #0064b7;
+}
