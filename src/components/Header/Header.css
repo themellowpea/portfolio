@@ -24,3 +24,7 @@
 .navigation a:hover {
 	border: 2px solid;
 }
+.nav__links {
+	display: flex;
+	align-items: center;
+}
