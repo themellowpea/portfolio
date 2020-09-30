@@ -11,7 +11,6 @@ function App() {
 			<Header />
 			<Switch>
 				<Route exact path='/' component={Home} />
-				<Route path='/portolio' component={Home} />
 				<Route path='/contact' component={MyForm} />
 			</Switch>
 		</div>
