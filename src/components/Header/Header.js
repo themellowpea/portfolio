@@ -8,6 +8,7 @@ export default function Header() {
 				<img
 					className='my__logo'
 					src={require('../../images/portfolio-logo.png')}
+					alt='My logo'
 				></img>
 
 				<Link to='/contact'>Contact Me</Link>

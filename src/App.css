@@ -33,5 +33,18 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-	color: #0091ea;
+	color: #0064b7;
+}
+
+body::-webkit-scrollbar {
+	width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #0091ea;
+	outline: 1px solid transparent;
 }

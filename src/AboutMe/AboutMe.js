@@ -20,6 +20,7 @@ export default function AboutMe() {
 			<img
 				className='my-portrait'
 				src={require('../images/my-portrait.jpg')}
+				alt='Me sitting and smiling'
 			/>
 			<article className='about__me'>
 				<div className='about__me__text__ctn'>

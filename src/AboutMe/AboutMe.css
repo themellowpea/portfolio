@@ -9,7 +9,6 @@
 	padding: 5rem;
 }
 .about__me__text__ctn {
-	width: 70%;
 	margin: auto;
 }
 .about__me__text__ctn h3 {
@@ -35,7 +34,7 @@
 		0 2.5px 5px rgba(0, 0, 0, 0.23);
 }
 .skills__icn {
-	color: #0091ea;
+	color: #64c1ff;
 	font-size: 4em;
 	margin: 20px;
 }
@@ -50,7 +49,7 @@
 .col h5 {
 	font-size: 16px;
 	font-weight: 600;
-	color: #0091ea;
+	color: #0064b7;
 }
 .col p {
 	width: 80%;
@@ -79,9 +78,12 @@
 		margin-bottom: 1em;
 	}
 	.first {
-		border-right: 1px solid #0064b7;
+		border-right: 1px solid rgba(100, 193, 255, 0.4);
 	}
 	.last {
-		border-left: 1px solid #0064b7;
+		border-left: 1px solid rgba(100, 193, 255, 0.4);
+	}
+	.about__me__text__ctn {
+		width: 70%;
 	}
 }
