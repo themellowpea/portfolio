@@ -18,7 +18,10 @@ export default function Homebl() {
 					a React client front-end for a full-stack
 					application. Utilizes user login/registration and
 					authentication. Stateless React architecture using
-					custom hooks.
+					custom hooks. This app is perfect for homebuyers
+					looking to keep track of their favorite homes over
+					the course of their search, as well as build a
+					list of notes for each home.
 				</p>
 				<p>
 					Tech: React, Jest, JavaScript, Node.js,

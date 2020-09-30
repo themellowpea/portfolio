@@ -17,7 +17,13 @@ export default function Iro() {
 					project, emphasizing branding and design.
 					Full-stack application that utilizes React and
 					Node.js and PostGreSQL database, deployed on
-					Heroku.
+					Heroku. This app helps anyone learn the basic
+					colors in Japenese through strategic learning
+					called 'spaced repetition'. The most frequently
+					guessed incorrect words will be displayed more
+					often, solidifying what the correct translation
+					is. The word list is managed by a linked-list
+					algorithm.
 				</p>
 				<p>
 					Tech: React, JavaScript, Node.js, Mocha/Chai,

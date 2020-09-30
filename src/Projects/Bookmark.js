@@ -18,7 +18,11 @@ export default function Bookmark() {
 				<p>
 					I used jQuery to build a simple single-page
 					bookmark app with a dark theme. Uses webpack to
-					manage a store and files.
+					manage a store and files. This app is useful to
+					record online websites, like the built in
+					bookmarker in your browser. The database refreshes
+					every 24 hours, so mostly it displays my ability
+					to work with jQuery.
 				</p>
 				<p>Tech: HTML5, CSS3, JavaScript, jQuery</p>
 				<hr />
