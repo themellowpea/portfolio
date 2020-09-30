@@ -14,8 +14,8 @@ export default function AboutMe() {
 				Neighborhood Socialist
 			</h1>
 			<h2>
-				I design and build small useful web apps and love
-				learning new technologies
+				I design and build useful, interesting web apps and
+				love learning new technologies
 			</h2>
 			<img
 				className='my-portrait'

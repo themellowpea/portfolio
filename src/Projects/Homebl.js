@@ -18,7 +18,7 @@ export default function Homebl() {
 					a React client front-end for a full-stack
 					application. Utilizes user login/registration and
 					authentication. Stateless React architecture using
-					custom hooks
+					custom hooks.
 				</p>
 				<p>
 					Tech: React, Jest, JavaScript, Node.js,

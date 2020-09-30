@@ -14,9 +14,9 @@ export default function Iro() {
 				<h3>Iro</h3>
 				<p>
 					This was a tag-team spaced repetion learning
-					project, emphasizing branding and
-					design.Full-stack application that utilizes React
-					and Node.js and PostGreSQL database, deployed on
+					project, emphasizing branding and design.
+					Full-stack application that utilizes React and
+					Node.js and PostGreSQL database, deployed on
 					Heroku.
 				</p>
 				<p>
