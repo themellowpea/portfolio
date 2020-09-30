@@ -1,15 +1,22 @@
 .main__header {
-	height: 100px;
+	height: auto;
+}
+.logo__ctn {
+	max-width: 200px;
+}
+.my__logo {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
 }
 .is-transparent {
 	background-color: transparent;
 }
 .navigation {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	margin: auto;
-	width: 90%;
 }
 .navigation a {
 	text-decoration: none;
