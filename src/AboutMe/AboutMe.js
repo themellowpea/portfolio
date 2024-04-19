@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-	HiOutlinePhotograph,
+	// HiOutlinePhotograph,
 	HiOutlineDesktopComputer,
 	HiOutlineTerminal,
 } from 'react-icons/hi'
@@ -10,13 +10,9 @@ export default function AboutMe() {
 	return (
 		<section>
 			<h1>
-				Full-Stack Devloper, UI/UX Designer & Friendly
+				Software Engineer, Full-Stack Devloper & Friendly
 				Neighborhood Coder
 			</h1>
-			<h2>
-				I design and build useful, interesting web apps and
-				love learning new technologies
-			</h2>
 			<img
 				className='my-portrait'
 				src={require('../images/my-portrait.jpg')}
@@ -26,38 +22,46 @@ export default function AboutMe() {
 				<div className='about__me__text__ctn'>
 					<h3>Hi! I'm Matt, nice to meet you!</h3>
 					<p>
-						I am a software developer with full-stack
-						experience, including JavaScript and PERN
-						stack proficiencies. I've built several web
-						applications remotely on small teams in the
-						Thinkful Software Engineering Immersion
-						Program, learning and developing skills to
-						create digital products for an array of uses.
+					Hey there!
+					👋 I'm Matt, a groovy software
+					engineer with a love for building elegant
+					solutions to complex problems. Ever since I
+					wrote my first "Hello, World!" program in a Google Chrome browser console, 
+					I've been hooked on the thrill of creating
+					innovative software that makes a difference.
 					</p>
 					<p>
-						I am a natural student, eager to always learn
-						new things and looking forward to the next
-						problem to solve.
+					My journey into the world of coding started
+					with my insatiable curiosity and a
+					determination to turn ideas into reality. Over
+					the years, I've honed my skills in various
+					programming languages and technologies,
+					constantly seeking out new challenges to
+					expand my knowledge. What sets me apart is not
+					just my technical expertise, but also my
+					dedication to understanding the bigger
+					picture. I believe that great software isn't
+					just about lines of code—it's about solving
+					real-world problems and making people's lives
+					easier.
+					</p>
+					<p> When I'm not busy coding, you can find
+					me kicking back with my pup, checking out the latest CRPG, 
+					or playing the guitar.
+					</p>
+					<p> Thanks for stopping by, and feel
+					free to reach out—I'm always up for a good
+					conversation or the opportunity to work on
+					something awesome together! --- Feel free to
+					personalize and tweak this example to better
+					reflect your own personality, experiences, and
+					interests. The goal is to give visitors a
+					glimpse into who you are beyond just your
+					technical skills.
 					</p>
 				</div>
 			</article>
 			<section className='skills'>
-				<div className='col first'>
-					<HiOutlinePhotograph className='skills__icn' />
-					<h4>Designer</h4>
-					<p>
-						I value simple, elegant design patterns that
-						include thoughtful interactions.
-					</p>
-					<h5>What I design:</h5>
-					<p>UI, UX, web/mobile apps, logos</p>
-					<h5>Tools: </h5>
-					<ul className='tools'>
-						<li>Figma</li>
-						<li>Pen & Paper</li>
-						<li>Sketch</li>
-					</ul>
-				</div>
 				<div className='col'>
 					<HiOutlineDesktopComputer className='skills__icn' />
 					<h4>Front-End Developer</h4>
@@ -67,17 +71,9 @@ export default function AboutMe() {
 						passion.
 					</p>
 					<h5>Languages I speak: </h5>
-					<p>JavaScript, React.js, jQuery, HTML5, CSS3</p>
-					<h5>Tools:</h5>
-					<ul className='tools'>
-						<li>VS Code</li>
-						<li>GitHub</li>
-						<li>Codepen</li>
-						<li>Terminal</li>
-						<li>Chrome Dev Tools</li>
-						<li>Vercel CLI</li>
-						<li>Enzyme</li>
-					</ul>
+					<p>JavaScript and the JS cinematic universe, 
+						including but not limited to: Next.js, 
+						Angular, Vue, React, Svelte, etc.</p>
 				</div>
 				<div className='col last'>
 					<HiOutlineTerminal className='skills__icn' />
@@ -88,15 +84,8 @@ export default function AboutMe() {
 						is paramount.
 					</p>
 					<h5>Languages I speak: </h5>
-					<p>JavaScript, Node.js, PostgreSQL</p>
-					<h5>Tools:</h5>
-					<ul className='tools'>
-						<li>Mocha</li>
-						<li>Chai</li>
-						<li>CORS</li>
-						<li>Helmet</li>
-						<li>Heroku</li>
-					</ul>
+					<p>JavaScript: Node, Express</p>
+					<p>C#, dotnet, Python, django</p>
 				</div>
 			</section>
 		</section>

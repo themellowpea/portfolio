@@ -13,10 +13,10 @@ export default function Projects() {
 	return (
 		<section>
 			<header className='projects__header'>
-				<h2>Recent Projects</h2>
+				<h2>Older Projects</h2>
 				<p>
 					Here are a few projects I built during my time at
-					Thinkful
+					Thinkful several years ago. We've come a long way since then :)
 				</p>
 			</header>
 			<article className='projects'>

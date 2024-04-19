@@ -7,12 +7,13 @@
 .about__me {
 	background-color: #0064b7;
 	padding: 5rem;
+	margin-bottom: 1em;
 }
 .about__me__text__ctn {
 	margin: auto;
 }
 .about__me__text__ctn h3 {
-	margin: 10px;
+	margin: 0 2em 2em 3em;
 	font-size: 32px;
 	font-weight: 600;
 	letter-spacing: 1pt;
@@ -72,10 +73,8 @@
 	}
 	.col {
 		flex: 1;
-		padding-top: 1em;
-		margin-top: 1em;
-		padding-bottom: 1em;
-		margin-bottom: 1em;
+		padding: 2em 4em;
+		margin:  0 2em;
 	}
 	.first {
 		border-right: 1px solid rgba(100, 193, 255, 0.4);
