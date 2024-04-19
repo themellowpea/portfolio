@@ -23,7 +23,7 @@ export default function AboutMe() {
 					<h3>Hi! I'm Matt, nice to meet you!</h3>
 					<p>
 					Hey there!
-					👋 I'm Matt, a groovy software
+					I'm Matt, a groovy software
 					engineer with a love for building elegant
 					solutions to complex problems. Ever since I
 					wrote my first "Hello, World!" program in a Google Chrome browser console, 
